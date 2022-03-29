@@ -8,7 +8,7 @@ public class CheckersBoard {
     static int[][] board = new int[rows][columns];
 
 
-    public static void init(){
+    public static void Newboard(){
          
        //initialize black positions
 
@@ -84,14 +84,21 @@ public class CheckersBoard {
  
      }
 
-  
+public class Moves{
+
+        public static void move(int x1 , int y1 , int x2 , int y2 ){
+                    
+
+    }  
     
 
     public static void main(String[] args)
     {
-        init();
+        Newboard();
         countColor("Black");
         display();
     }
+
+}
 
 }
